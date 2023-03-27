@@ -4,7 +4,7 @@ import { ContactList } from "components/ContactList/ContactList";
 import { nanoid } from "nanoid";
 import { Component } from "react";
 import { Title, Div, Container } from "./AppStyled";
-import { Filter } from "components/Filtr/Filtr";
+import { Filter } from "components/Filter/Filter";
 
 
 
@@ -95,19 +95,3 @@ export class App extends Component {
 }
 
 
-// export const App = () => {
-//   return (
-//     <div
-//       style={{
-//         height: '100vh',
-//         display: 'flex',
-//         justifyContent: 'center',
-//         alignItems: 'center',
-//         fontSize: 40,
-//         color: '#010101'
-//       }}
-//     >
-//       React homework template
-//     </div>
-//   );
-// };

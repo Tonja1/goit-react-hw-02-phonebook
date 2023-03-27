@@ -20,4 +20,4 @@ export const ContactList = ({ contacts, onClick }) => {
     );
 };
 
-ContactList.PropTypes = { contacts: PropTypes.array.isRequired };
+ContactList.propTypes = { contacts: PropTypes.array.isRequired };

@@ -10,9 +10,9 @@ export const ContactItem = ({ name, number, onClick, id }) => {
             <Button onClick={() => onClick(id)}>Delete</Button>
         </Item>
     );
-};
+}
 
-ContactItem.PropTypes = {
+ContactItem.propTypes = {
     name: PropTypes.string.isRequired,
-    number: PropTypes.string.isRequired
+    number: PropTypes.string.isRequired,
 };
