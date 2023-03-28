@@ -26,7 +26,7 @@ export class App extends Component {
         event.preventDefault();
         const name = event.currentTarget.elements.name.value;
         const number = event.currentTarget.elements.number.value;
-        const normalizedName = name.toLowercase();
+        const normalizedName = name.toLowerCase();
         const contact = {
             id: nanoid(),
             name: name,
